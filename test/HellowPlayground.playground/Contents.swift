@@ -43,7 +43,7 @@ func cc (name: String?){
 
 var so :String?
 
-print(so?.count)
+print(so?.count ?? <#default value#>)
 so = "suhregteuh"
 
 if let s = so{
@@ -55,11 +55,18 @@ if let s = so{
 enum notes:String{
     case A
     case B
-    case C
+    case C = "5"
 }
 
 let m = notes.B
 print(m.rawValue)
 
+if let rate : notes = notes(rawValue: "A"){
+    print(rate)
+}
 
+let to = (from:"helo",to:"cijow")
+print(to.from)
+print(to.0)
 
+so?.remove(at: String.Index(encodedOffset: 0))

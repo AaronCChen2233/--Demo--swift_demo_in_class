@@ -73,11 +73,10 @@ print(clean(arr: dirtyWordsArray))
 var movies:Dictionary<String,String> = [ "Boyhood":"Richard Linklater","Inception":"Christopher Nolan", "The Hurt Locker":"Kathryn Bigelow", "Selma":"Ava Du Vernay", "Interstellar":"Christopher Nolan"]
 
 class MovieArchive {
-    func filterBydirector(movies:Dictionary<String,String>,director:String)->Dictionary<String,String>{
+    static func filterBydirector(movies:Dictionary<String,String>,director:String)->Dictionary<String,String>{
         return movies.filter{$0.value == director}
     }
-
 }
-let movie = MovieArchive()
-print(movie.filterBydirector(movies:movies,director:"Christopher Nolan"))
+
+print(MovieArchive.filterBydirector(movies:movies,director:"Christopher Nolan"))
 
