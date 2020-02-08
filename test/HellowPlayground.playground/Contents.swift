@@ -43,8 +43,8 @@ func cc (name: String?){
 
 var so :String?
 
-print(so?.count ?? <#default value#>)
-so = "suhregteuh"
+//print(so?.count ?? <#default value#>)
+//so = "suhregteuh"
 
 if let s = so{
     print(s)
@@ -69,4 +69,24 @@ let to = (from:"helo",to:"cijow")
 print(to.from)
 print(to.0)
 
-so?.remove(at: String.Index(encodedOffset: 0))
+
+
+var functiontest : (String)->()={
+    print($0)
+}
+
+functiontest("fjoweijfoweijfowif")
+
+
+func someFunc()->((Int)->(String)){
+    func makesomethink(s:Int)->String{
+print(s)
+        return "1str"
+    }
+    return makesomethink
+}
+
+print(someFunc()(1))
+
+
+
