@@ -43,7 +43,9 @@
 func makeOne(_ x: Int) -> Int {
     var d = [Int](repeating: 0, count: x + 1)
     for i in 2...x {
+        print(d)
         d[i] = d[i - 1] + 1
+        print(d[i])
         if i % 2 == 0 && d[i] > d[i / 2] + 1 {
             d[i] = d[i / 2] + 1
         }
@@ -54,7 +56,7 @@ func makeOne(_ x: Int) -> Int {
     return d[x]
 }
 
-print(makeOne(2))  // Expected value: 1
+//print(makeOne(2))  // Expected value: 1
 print(makeOne(10)) // Expected value: 3
 
 //: Done!
