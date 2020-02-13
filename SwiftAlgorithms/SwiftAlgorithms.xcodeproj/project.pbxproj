@@ -30,10 +30,10 @@
 
 /* Begin PBXFileReference section */
 		7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evaluate.swift; sourceTree = "<group>"; };
+		7B33062023F4F62200BED428 /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
 		7BE40D6A23F3706100935C88 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		7BE40D6D23F3712500935C88 /* recursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recursive.swift; sourceTree = "<group>"; };
 		7BE40D6F23F3763B00935C88 /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
-		7BE40D7223F37CD900935C88 /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = story.txt; path = ../../../../../Downloads/story.txt; sourceTree = "<group>"; };
 		7BE6187923F2200F0010DCF9 /* SwiftAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE6187C23F2200F0010DCF9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7BE6188423F2208C0010DCF9 /* Searching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching.swift; sourceTree = "<group>"; };
@@ -54,8 +54,8 @@
 		7BE40D6C23F3711100935C88 /* recursive */ = {
 			isa = PBXGroup;
 			children = (
+				7B33062023F4F62200BED428 /* story.txt */,
 				7BE40D6D23F3712500935C88 /* recursive.swift */,
-				7BE40D7223F37CD900935C88 /* story.txt */,
 				7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */,
 			);
 			path = recursive;

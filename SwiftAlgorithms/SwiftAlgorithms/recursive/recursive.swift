@@ -45,9 +45,10 @@ func reverseLine(_ line:Int){
     var iline = line
     if let cont = content{
         let lines = cont.split(separator:"\n")
-        if iline == -1 {iline = lines.count}
+        if iline == -1 {iline = lines.count-1}
         
         print(lines[iline])
+        if line == 0 {return}
         reverseLine(iline - 1)
     }
 }
