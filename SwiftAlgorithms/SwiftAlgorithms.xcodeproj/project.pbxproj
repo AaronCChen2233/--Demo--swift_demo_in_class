@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0BCBF523F4A4EB00B3F5D4 /* evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */; };
 		7BE40D6B23F3706100935C88 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6A23F3706100935C88 /* QuickSort.swift */; };
 		7BE40D6E23F3712500935C88 /* recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6D23F3712500935C88 /* recursive.swift */; };
 		7BE40D7023F3763B00935C88 /* String+DPStringTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6F23F3763B00935C88 /* String+DPStringTool.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evaluate.swift; sourceTree = "<group>"; };
 		7BE40D6A23F3706100935C88 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		7BE40D6D23F3712500935C88 /* recursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recursive.swift; sourceTree = "<group>"; };
 		7BE40D6F23F3763B00935C88 /* String+DPStringTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DPStringTool.swift"; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				7BE40D6D23F3712500935C88 /* recursive.swift */,
 				7BE40D7223F37CD900935C88 /* story.txt */,
+				7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */,
 			);
 			path = recursive;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				7BE40D6E23F3712500935C88 /* recursive.swift in Sources */,
 				7BE6187D23F2200F0010DCF9 /* main.swift in Sources */,
 				7BE40D7023F3763B00935C88 /* String+DPStringTool.swift in Sources */,
+				7B0BCBF523F4A4EB00B3F5D4 /* evaluate.swift in Sources */,
 				7BE6188723F228800010DCF9 /* Sort.swift in Sources */,
 				7BE40D6B23F3706100935C88 /* QuickSort.swift in Sources */,
 			);

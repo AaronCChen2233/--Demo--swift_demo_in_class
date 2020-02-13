@@ -20,7 +20,6 @@ func isPalindrome(_ word:String)->Bool{
         let start = word.index(word.startIndex, offsetBy: 1)
         let end = word.index(word.endIndex, offsetBy: -1)
         
-        
         return isPalindrome(String(word[start..<end]))
     }
     return false
