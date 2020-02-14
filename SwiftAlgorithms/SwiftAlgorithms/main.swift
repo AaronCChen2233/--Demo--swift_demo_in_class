@@ -9,7 +9,7 @@
 import Foundation
 
 
-reverseLine(-1)
+//reverseLine(-1)
 
 //var test = [ 5, 8, 32,1 ,31,3 ,1,5 ,1, 51,651 ,32,13 ,51,65,1 ]
 //var test2=[43,46,36,545,47,47,567,768,679,78,9,9,77,6435,34,564758,79,0]
@@ -22,6 +22,8 @@ reverseLine(-1)
 //print(evaluate("(2+2)"))
 //print(evaluate("(1+(2*4))"))
 //print(evaluate("((1+3)+((1+2)*5))"))
+
+print(evaluate("(((1+3)+((1+2)*5)))"))
 
 
 //print(bubbleSort(test, <))
