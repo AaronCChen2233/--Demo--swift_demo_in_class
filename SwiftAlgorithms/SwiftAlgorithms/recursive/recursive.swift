@@ -53,13 +53,4 @@ func reverseLine(_ line:Int){
     }
 }
 
-//func reverseLines(_ line: Int) {
-//    let contents = try! String(contentsOfFile: "/Users/park/Desktop/SwiftAlgorithmsDataStructures/SwiftAlgorithmsDataStructures/Recursion/story.txt", encoding: .utf8)
-//    let lines = contents.split(separator: "\n")
-//    // MARK: - YOUR RECURSIVE CODE
-//    
-//    
-//}
-
-
 

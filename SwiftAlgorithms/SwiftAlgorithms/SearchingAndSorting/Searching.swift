@@ -45,11 +45,6 @@ func binarySearch<T: Comparable>(_ collection:[T], _ target:T) -> Int?{
     return nil
 }
 
-func exhaustiveSearch<T: Comparable>(_ collection:[T], _ target:T) -> Int?{
-
-    return 0
-}
-
 func printBinaryExhaustive(_ n:Int,_ prefix:String = ""){
     if n == 0{
         print(prefix)
@@ -99,3 +94,4 @@ func printPermutation2(_ word: String,_ sofar:String=""){
     }
     
 }
+	

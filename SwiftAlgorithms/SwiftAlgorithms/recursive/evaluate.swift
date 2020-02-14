@@ -16,6 +16,7 @@ print(evaluate("(1+(2*4))"))
 print(evaluate("((1+3)+((1+2)*5))"))
 print(evaluate("(((3+ 1 ) + 2 *5+(4/2)-1)) + 5 + 1 +1"))
  **/
+
 func evaluate(_ inputString:String)-> String{
     var input = inputString
     input = input.replacingOccurrences(of: " ", with: "")
@@ -108,8 +109,6 @@ func evaluate(_ inputString:String)-> String{
                 return String(n1!-n2!)
             }
         }
-        
-        
     }
     return result
 }
