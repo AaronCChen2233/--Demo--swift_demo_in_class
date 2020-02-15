@@ -8,7 +8,7 @@
 
 import Foundation
 
-
+runRolldiceSum()
 //reverseLine(-1)
 
 //var test = [ 5, 8, 32,1 ,31,3 ,1,5 ,1, 51,651 ,32,13 ,51,65,1 ]
@@ -23,7 +23,7 @@ import Foundation
 //print(evaluate("(1+(2*4))"))
 //print(evaluate("((1+3)+((1+2)*5))"))
 
-print(evaluate("(((1+3)+((1+2)*5)))"))
+//print(evaluate("(((1+3)+((1+2)*5)))"))
 
 
 //print(bubbleSort(test, <))
