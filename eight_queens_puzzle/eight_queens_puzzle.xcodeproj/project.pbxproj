@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7BD073E823F748850051640D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD073E723F748850051640D /* main.swift */; };
+		7B1AB78423FCB0E700C22F8C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1AB78323FCB0E700C22F8C /* main.swift */; };
 		7BD073F023F74CC10051640D /* QueensSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD073EE23F74CC10051640D /* QueensSolver.swift */; };
 		7BD073F123F74CC10051640D /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD073EF23F74CC10051640D /* Board.swift */; };
 /* End PBXBuildFile section */
@@ -25,8 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B1AB78323FCB0E700C22F8C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7BD073E423F748850051640D /* eight_queens_puzzle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eight_queens_puzzle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BD073E723F748850051640D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7BD073EE23F74CC10051640D /* QueensSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueensSolver.swift; sourceTree = "<group>"; };
 		7BD073EF23F74CC10051640D /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 			children = (
 				7BD073EF23F74CC10051640D /* Board.swift */,
 				7BD073EE23F74CC10051640D /* QueensSolver.swift */,
-				7BD073E723F748850051640D /* main.swift */,
+				7B1AB78323FCB0E700C22F8C /* main.swift */,
 			);
 			path = eight_queens_puzzle;
 			sourceTree = "<group>";
@@ -126,9 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BD073E823F748850051640D /* main.swift in Sources */,
 				7BD073F023F74CC10051640D /* QueensSolver.swift in Sources */,
 				7BD073F123F74CC10051640D /* Board.swift in Sources */,
+				7B1AB78423FCB0E700C22F8C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
