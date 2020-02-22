@@ -17,16 +17,16 @@ import Foundation
 
 
 var count = 0
-
 func solveQueens(board: inout Board) {
     helpingFunction(i: 0, puted: 0, board: &board)
+//    solveQueens(board:&board,row: 0,col: 0)
 }
 
 func helpingFunction(i:Int,puted:Int = 0,board: inout Board){
     if(puted == 8){
         count += 1
-        print(board)
         print(count)
+        print(board)
     }
     else{
         for bi in i..<board.size*board.size{
@@ -40,5 +40,23 @@ func helpingFunction(i:Int,puted:Int = 0,board: inout Board){
         }
     }
 }
+
+
+//func solveQueens(board: inout Board, row: Int, col: Int) {
+//    count += 1
+//    if col == 8 {
+//        print(board)
+//        print("Number of recursive calls: \(count)")
+//        possibilities += 1
+//    } else {
+//        for r in 0...7 {
+//            if board.isSafe(row: r, col: col) {
+//                board.place(row: r, col: col)
+//                solveQueens(board: &board, row: r, col: col+1)
+//                board.remove(row: r, col: col)
+//            }
+//        }
+//    }
+//}
 
 

@@ -8,7 +8,10 @@
 
 import Foundation
 
-runRolldiceSum()
+diameter()
+//whoisMyParent()
+//treeTravaral()
+//runRolldiceSum()
 //reverseLine(-1)
 
 //var test = [ 5, 8, 32,1 ,31,3 ,1,5 ,1, 51,651 ,32,13 ,51,65,1 ]
