@@ -41,8 +41,6 @@ func postOrder(_ node:Int){
 
 
 func treeTravaral(){
-
-
     let n = Int(readLine()!)!
     for _ in 0..<n{
         let nodesInfo = readLine()!.split(separator: " ").map{String($0)}

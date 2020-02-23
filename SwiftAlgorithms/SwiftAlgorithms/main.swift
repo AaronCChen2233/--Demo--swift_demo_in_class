@@ -8,7 +8,8 @@
 
 import Foundation
 
-diameter()
+inputLCATree()
+//diameter()
 //whoisMyParent()
 //treeTravaral()
 //runRolldiceSum()

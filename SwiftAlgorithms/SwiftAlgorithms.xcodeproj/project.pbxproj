@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B0BCBF523F4A4EB00B3F5D4 /* evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */; };
 		7B1CFCAD23FDE4470013762B /* treeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1CFCAC23FDE4470013762B /* treeOrder.swift */; };
+		7B73916A2401E33500718C10 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7391692401E33500718C10 /* LCA.swift */; };
 		7BD073F423F74E130051640D /* backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD073F323F74E130051640D /* backtracking.swift */; };
 		7BE40D6B23F3706100935C88 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6A23F3706100935C88 /* QuickSort.swift */; };
 		7BE40D6E23F3712500935C88 /* recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6D23F3712500935C88 /* recursive.swift */; };
@@ -36,6 +37,7 @@
 		7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evaluate.swift; sourceTree = "<group>"; };
 		7B1CFCAC23FDE4470013762B /* treeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treeOrder.swift; sourceTree = "<group>"; };
 		7B33062023F4F62200BED428 /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
+		7B7391692401E33500718C10 /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		7BD073F323F74E130051640D /* backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backtracking.swift; sourceTree = "<group>"; };
 		7BE40D6A23F3706100935C88 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		7BE40D6D23F3712500935C88 /* recursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recursive.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				7B1CFCAC23FDE4470013762B /* treeOrder.swift */,
+				7B7391692401E33500718C10 /* LCA.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				7BE6188523F2208C0010DCF9 /* Searching.swift in Sources */,
 				7BEE0D51240091E300EC5EFE /* Diameter.swift in Sources */,
 				7BEE0D4F2400873700EC5EFE /* howIsMyParent.swift in Sources */,
+				7B73916A2401E33500718C10 /* LCA.swift in Sources */,
 				7BE40D6E23F3712500935C88 /* recursive.swift in Sources */,
 				7BE6187D23F2200F0010DCF9 /* main.swift in Sources */,
 				7BE40D7023F3763B00935C88 /* String+DPStringTool.swift in Sources */,
