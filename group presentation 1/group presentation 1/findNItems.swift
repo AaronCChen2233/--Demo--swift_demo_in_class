@@ -44,8 +44,11 @@ func findNItems<T:Comparable>(_ items:[T],_ m: Int,_ comparator:(T,T)->Bool) ->[
     for i in items{
         /**if heap's count is smaller than m insert item anyway*/
         if heap.count < m{
-            heap.insert(i, at: 0)
-            toheap(&heap, i: 0, comparator: comparator)
+            heap.append(i)
+            checkInsert(&heap,comparator: comparator)
+            
+//            heap.insert(i, at: 0)
+//            toheap(&heap, i: 0, comparator: comparator)
         }else if comparator(i,heap[0]){
             heap[0] = i
             toheap(&heap, i: 0, comparator: comparator)
@@ -53,6 +56,16 @@ func findNItems<T:Comparable>(_ items:[T],_ m: Int,_ comparator:(T,T)->Bool) ->[
     }
     
     return heap
+}
+
+func checkInsert<T:Comparable>(_ heap:inout[T], comparator:(T,T)->Bool){
+    var checkIndex = heap.count - 1
+    
+    while checkIndex != 0 {
+        let parentIndex = Int((checkIndex - 1)/2)
+        toheap(&heap, i: parentIndex, comparator: comparator)
+        checkIndex = parentIndex
+    }
 }
 
 func toheap<T:Comparable>(_ heap:inout[T],i:Int,comparator:(T,T)->Bool){
