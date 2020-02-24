@@ -17,23 +17,51 @@ func findNItems<T:Comparable>(_ items:[T],_ m: Int,_ comparator:(T,T)->Bool) ->[
             continue
         }
         
-        /*if stream's count is less than m add item anyway**/
-        if stream.count < m{
-            stream.append(i)
-        }else{
-            /**if stream's count doesn't less than m should compare*/
-            /**and if is conform remove compared item and add new item*/
-            if comparator(i,stream[0]){
-                stream.remove(at: 0)
+        /**If is true put in first*/
+        if comparator(i, stream[0]){
+            /**if stream's count is equal m remove change first one to new one*/
+            if(stream.count == m){
+                stream[0] = i
+                /*but the new item may not is the compared item so run this function keep first is for compared**/
+                letFirstIsCompared(&stream,comparator)
+            }else{
                 stream.append(i)
             }
-            
+        }else{
+            /*if stream's count hadn't equal m put the item anyway,but use append so it can keep first one is for compared **/
+            if stream.count < m{
+                stream.insert(i, at: 0)
+            }
         }
-        /**let first item in stream is max or min (for next round compare)i*/
-        letFirstIsCompared(&stream,comparator)
     }
     
     return stream
+}
+
+func stdin(){
+    var comparatorStr = ""
+    var itmes = [Int]()
+    /**if comparator is empty keep readLine*/
+    while comparatorStr == "" {
+        let rn = readLine()!
+        
+        if let n = Int(rn){
+            itmes.append(n)
+        }else{
+            /**when rn isn't Int put this string is comparatorStr*/
+            comparatorStr = rn
+        }
+    }
+    
+    /**read number of m*/
+    let m = Int(readLine()!)!
+    
+    /*if comparatorStr is < is find smallest else is largest, so if user type other string will run largest**/
+    if comparatorStr == "<"{
+        print(findNItems(itmes,m,<))
+    }else{
+        print(findNItems(itmes,m,>))
+    }
 }
 
 func letFirstIsCompared<T:Comparable>(_ items:inout[T],_ comparator:(T,T)->Bool){
@@ -42,7 +70,6 @@ func letFirstIsCompared<T:Comparable>(_ items:inout[T],_ comparator:(T,T)->Bool)
             swap(&items, 0, i)
         }
     }
-    print(items)
 }
 
 func swap<T:Comparable>(_ items:inout[T],_ indexa:Int, _ indexb:Int){
