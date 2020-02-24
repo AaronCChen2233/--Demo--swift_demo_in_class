@@ -8,6 +8,36 @@
 
 import Foundation
 
+/*call this function and start input number
+ when you want to stop type comparator < or > default is >
+ then type m
+ **/
+func stdin(){
+    var comparatorStr = ""
+    var itmes = [Int]()
+    /**if comparator is empty keep readLine*/
+    while comparatorStr == "" {
+        let rn = readLine()!
+        
+        if let n = Int(rn){
+            itmes.append(n)
+        }else{
+            /**when rn isn't Int put this string is comparatorStr*/
+            comparatorStr = rn
+        }
+    }
+    
+    /**read number of m*/
+    let m = Int(readLine()!)!
+    
+    /*if comparatorStr is < is find smallest else is largest, so if user type other string will run largest**/
+    if comparatorStr == "<"{
+        print(findNItems(itmes,m,<))
+    }else{
+        print(findNItems(itmes,m,>))
+    }
+}
+
 func findNItems<T:Comparable>(_ items:[T],_ m: Int,_ comparator:(T,T)->Bool) ->[T]{
     var stream:[T] = [T]()
     for i in items{
@@ -36,32 +66,6 @@ func findNItems<T:Comparable>(_ items:[T],_ m: Int,_ comparator:(T,T)->Bool) ->[
     }
     
     return stream
-}
-
-func stdin(){
-    var comparatorStr = ""
-    var itmes = [Int]()
-    /**if comparator is empty keep readLine*/
-    while comparatorStr == "" {
-        let rn = readLine()!
-        
-        if let n = Int(rn){
-            itmes.append(n)
-        }else{
-            /**when rn isn't Int put this string is comparatorStr*/
-            comparatorStr = rn
-        }
-    }
-    
-    /**read number of m*/
-    let m = Int(readLine()!)!
-    
-    /*if comparatorStr is < is find smallest else is largest, so if user type other string will run largest**/
-    if comparatorStr == "<"{
-        print(findNItems(itmes,m,<))
-    }else{
-        print(findNItems(itmes,m,>))
-    }
 }
 
 func letFirstIsCompared<T:Comparable>(_ items:inout[T],_ comparator:(T,T)->Bool){
