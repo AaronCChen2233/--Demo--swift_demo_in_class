@@ -70,7 +70,7 @@ public struct UF {
     ///   - q: the other element
     public mutating func union(_ p: Int, _ q: Int) {
         let pr = root(p)
-        let qr = root(p)
+        let qr = root(q)
         /**If root is same alread unioned so just return*/
         if pr == qr {return}
         if size[pr] < size[qr]{
