@@ -9,10 +9,40 @@
 import Foundation
 
 
-
+func findCircleNum(_ M: [[Int]]) -> Int {
+       var uf:[Int] = [Int]()
+       var group = M.count
+       
+       for i in 0..<M.count{
+           uf.append(i)
+       }
+       
+       for i in 0..<M.count{
+           for j in 0..<M[i].count{
+               if i == j{
+                   continue
+               }
+               
+               if(M[i][j] == 1 && uf[j] != uf[i]){
+                let jid = uf[j]
+                   uf[j] = uf[i]
+                   group = group - 1
+                   for k in 0..<M.count{
+                       if uf[k] == jid {
+                           uf[k] = uf[i]
+                       }
+                   }
+               }
+           }
+       }
+       
+       return group
+   }
+var i = [[1,0,0,1],[0,1,1,0],[0,1,1,1],[1,0,1,1]]
+print(findCircleNum(i))
 
 //storeInAdjacencyListAndDFS()
-inputLCATree()
+//inputLCATree()
 //diameter()
 //whoisMyParent()
 //treeTravaral()
