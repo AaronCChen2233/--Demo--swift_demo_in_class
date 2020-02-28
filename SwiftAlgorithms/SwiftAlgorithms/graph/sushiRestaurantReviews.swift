@@ -23,8 +23,4 @@ func sushiReview(){
           adjList[u].append(v)
           adjList[v].append(u)
       }
-
-    
-    
-    
 }

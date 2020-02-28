@@ -8,7 +8,8 @@
 
 import Foundation
 
-cyclicPermutation()
+repeatingSequence()
+//cyclicPermutation()
 //floodFill()
 //storeInAdjacencyListAndDFS()
 //inputLCATree()
