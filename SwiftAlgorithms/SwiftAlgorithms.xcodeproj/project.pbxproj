@@ -18,6 +18,8 @@
 		7B329AC82405ECB900A618CE /* connectedComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B329AC72405ECB900A618CE /* connectedComponents.swift */; };
 		7B73916A2401E33500718C10 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7391692401E33500718C10 /* LCA.swift */; };
 		7BB3E1F424086E4D00824986 /* floodfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F324086E4D00824986 /* floodfill.swift */; };
+		7BB3E1F624088BBC00824986 /* sushiRestaurantReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F524088BBC00824986 /* sushiRestaurantReviews.swift */; };
+		7BB3E1F82408C30700824986 /* cyclicPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F72408C30700824986 /* cyclicPermutation.swift */; };
 		7BBCBBF02406E4F400158158 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBCBBEF2406E4F400158158 /* UF.swift */; };
 		7BD073F423F74E130051640D /* backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD073F323F74E130051640D /* backtracking.swift */; };
 		7BE40D6B23F3706100935C88 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6A23F3706100935C88 /* QuickSort.swift */; };
@@ -55,6 +57,8 @@
 		7B33062023F4F62200BED428 /* story.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = story.txt; sourceTree = "<group>"; };
 		7B7391692401E33500718C10 /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
 		7BB3E1F324086E4D00824986 /* floodfill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floodfill.swift; sourceTree = "<group>"; };
+		7BB3E1F524088BBC00824986 /* sushiRestaurantReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushiRestaurantReviews.swift; sourceTree = "<group>"; };
+		7BB3E1F72408C30700824986 /* cyclicPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyclicPermutation.swift; sourceTree = "<group>"; };
 		7BBCBBEF2406E4F400158158 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		7BD073F323F74E130051640D /* backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backtracking.swift; sourceTree = "<group>"; };
 		7BE40D6A23F3706100935C88 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 				7B329AC32405EC2200A618CE /* DFS.swift */,
 				7B329AC52405EC7D00A618CE /* Bipartite.swift */,
 				7B329AC72405ECB900A618CE /* connectedComponents.swift */,
+				7BB3E1F524088BBC00824986 /* sushiRestaurantReviews.swift */,
+				7BB3E1F72408C30700824986 /* cyclicPermutation.swift */,
 			);
 			path = graph;
 			sourceTree = "<group>";
@@ -257,6 +263,7 @@
 				7BD073F423F74E130051640D /* backtracking.swift in Sources */,
 				7B329ABC240589E200A618CE /* Stack.swift in Sources */,
 				7B329ABB240589E200A618CE /* Queue.swift in Sources */,
+				7BB3E1F624088BBC00824986 /* sushiRestaurantReviews.swift in Sources */,
 				7BE6188523F2208C0010DCF9 /* Searching.swift in Sources */,
 				7BEE0D51240091E300EC5EFE /* Diameter.swift in Sources */,
 				7BEE0D4F2400873700EC5EFE /* howIsMyParent.swift in Sources */,
@@ -270,6 +277,7 @@
 				7B0BCBF523F4A4EB00B3F5D4 /* evaluate.swift in Sources */,
 				7BB3E1F424086E4D00824986 /* floodfill.swift in Sources */,
 				7BE6188723F228800010DCF9 /* Sort.swift in Sources */,
+				7BB3E1F82408C30700824986 /* cyclicPermutation.swift in Sources */,
 				7BE40D6B23F3706100935C88 /* QuickSort.swift in Sources */,
 				7B329ABD240589E200A618CE /* Bag.swift in Sources */,
 				7B329ABF240589F400A618CE /* BFS.swift in Sources */,

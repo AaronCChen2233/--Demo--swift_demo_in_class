@@ -8,7 +8,8 @@
 
 import Foundation
 
-floodFill()
+cyclicPermutation()
+//floodFill()
 //storeInAdjacencyListAndDFS()
 //inputLCATree()
 //diameter()
