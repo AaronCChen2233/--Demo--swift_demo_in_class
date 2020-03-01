@@ -8,12 +8,13 @@
 
 import Foundation
 
-struct Square {
-    let x: Int
-    let y: Int
-}
-let dx = [0, 0, 1, -1]
-let dy = [1, -1, 0, 0]
+//struct Square {
+//    let x: Int
+//    let y: Int
+//}
+//let dx = [0, 0, 1, -1]
+//let dy = [1, -1, 0, 0]
+
 var group:[[Int]] = [[Int]]()
 var townMap = [[Int]]()
 
