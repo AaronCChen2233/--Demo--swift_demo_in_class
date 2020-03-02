@@ -8,8 +8,8 @@
 
 import Foundation
 
-inputLCATree()
-//tomatoFarm()
+//inputLCATree()
+tomatoFarm()
 //sushiReview()
 //cyclicPermutation()
 //floodFill()
