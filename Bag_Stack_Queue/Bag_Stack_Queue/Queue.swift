@@ -59,17 +59,7 @@ public final class Queue<E> : Sequence {
             oldLast?.next = last
         }
         count += 1
-        
-        //        let old = self.first
-        //        first = Node<E>(item: item)
-        //
-        //        if last == nil{
-        //           last = first
-        //        }
-        //        else{
-        //            old?.next = first
-        //        }
-        //        count += 1
+    
     }
     
     /// Removes and returns the item on this queue that was least recently added.
@@ -79,11 +69,6 @@ public final class Queue<E> : Sequence {
         first = first?.next
         count -= 1
         return item
-        
-        //        let dlast = last
-        //        last = last?.next
-        //        count += 1
-        //        return dlast?.item
     }
     
     /// QueueIterator that iterates over the items in FIFO order.
@@ -108,7 +93,6 @@ public final class Queue<E> : Sequence {
     /// Returns an iterator that iterates over the items in this Queue in FIFO order.
     public __consuming func makeIterator() -> QueueIterator<E> {
         return QueueIterator<E>(first)
-        //        return QueueIterator<E>(last)
     }
 }
 
