@@ -8,8 +8,43 @@
 
 import Foundation
 
+findOrder(3, [[1,0],[1,2],[0,1]])
+
+
+
+
+
+
+//func twoCitySchedCost(_ costs: [[Int]]) -> Int {
+// var sum = 0
+//    var d = [Int]()
+// for c in costs{
+//    d.append(c[0]-c[1])
+//    sum += c[0]
+// }
+//    d.sort(by: >)
+//    for m in 0..<costs.count/2{
+//        sum -= d[m]
+//
+//    }
+//
+//
+//    return sum
+//}
+//
+//
+//
+//twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]])
+//
+
+
+
+
+//canFinish(3,[[2,0],[2,1]])
+//ToploglicalSort()
+//sushiSolve()
 //inputLCATree()
-tomatoFarm()
+//tomatoFarm()
 //sushiReview()
 //cyclicPermutation()
 //floodFill()
