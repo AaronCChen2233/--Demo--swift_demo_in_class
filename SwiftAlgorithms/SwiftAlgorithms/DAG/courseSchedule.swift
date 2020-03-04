@@ -8,6 +8,11 @@
 
 import Foundation
 
+func runcourseSchedule(){
+    print(canFinish(2, [[1,0]]))
+    print(canFinish(2, [[1,0],[0,1]]))
+}
+
 func canFinish(_ numCourses: Int, _ prerequisites: [[Int]]) -> Bool {
     var indegree = [Int](repeating: 0, count: numCourses)
     for c in prerequisites{

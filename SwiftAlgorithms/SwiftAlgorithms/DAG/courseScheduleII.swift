@@ -8,43 +8,48 @@
 
 import Foundation
 
+func runcourseScheduleII(){
+    print(findOrder(2, [[1,0]]))
+    print(findOrder(4, [[1,0],[2,0],[3,1],[3,2]]))
+}
+
 func findOrder(_ numCourses: Int, _ prerequisites: [[Int]]) -> [Int] {
     var order = [Int]()
-
-     var indegree = [Int](repeating: 0, count: numCourses)
     
-     for c in prerequisites{
+    var indegree = [Int](repeating: 0, count: numCourses)
+    
+    for c in prerequisites{
         indegree[c[0]]+=1
     }
-        let q = CoursesQueueII<Int>()
+    let q = CoursesQueueII<Int>()
     
-       for i in 0..<numCourses{
-           if indegree[i] == 0{
-               q.enqueue(item: i)
+    for i in 0..<numCourses{
+        if indegree[i] == 0{
+            q.enqueue(item: i)
             order.append(i)
-           }
-       }
-       
-       while !q.isEmpty(){
-           let x = q.dequeue()!
-          let vp = prerequisites.filter{$0[1]==x}
-           
-           if vp.count > 0{
+        }
+    }
+    
+    while !q.isEmpty(){
+        let x = q.dequeue()!
+        let vp = prerequisites.filter{$0[1]==x}
+        
+        if vp.count > 0{
             
-               for vl in vp{
-                   let v = vl[0]
-                   indegree[v] -= 1
-                   if indegree[v] == 0{
+            for vl in vp{
+                let v = vl[0]
+                indegree[v] -= 1
+                if indegree[v] == 0{
                     order.append(v)
-                       q.enqueue(item: v)
-                   }
-               }
-           }
-       }
+                    q.enqueue(item: v)
+                }
+            }
+        }
+    }
     
     if (indegree.filter{$0 > 0}.count > 0){
-         return []
-     }
+        return []
+    }
     
     
     return order

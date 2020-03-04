@@ -8,7 +8,8 @@
 
 import Foundation
 
-findOrder(3, [[1,0],[1,2],[0,1]])
+runcourseSchedule()
+runcourseScheduleII()
 
 
 
