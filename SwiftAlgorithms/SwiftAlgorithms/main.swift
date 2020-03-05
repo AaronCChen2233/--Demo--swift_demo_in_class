@@ -8,8 +8,7 @@
 
 import Foundation
 
-runcourseSchedule()
-runcourseScheduleII()
+bridges()
 
 
 
