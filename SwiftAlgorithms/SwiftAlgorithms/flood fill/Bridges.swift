@@ -68,6 +68,9 @@ func bridges(){
                         if search[x][y] > goes-1 || (goes == 0 && search[x][y]<0 ){
                             goes += 1
                         }
+                        if(goes > min){
+                            continue
+                        }
                         bridgeq.enqueue(item: bSquare(x: nx, y: ny))
                         search[nx][ny] = goes
                     }

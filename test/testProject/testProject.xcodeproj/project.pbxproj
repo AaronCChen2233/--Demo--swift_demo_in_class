@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B8B9B642410A5140012FEFB /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B9B632410A5140012FEFB /* Bridges.swift */; };
 		7BCA59B1240DB698002B2E56 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCA59B0240DB698002B2E56 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B8B9B632410A5140012FEFB /* Bridges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bridges.swift; path = "../../../SwiftAlgorithms/SwiftAlgorithms/flood fill/Bridges.swift"; sourceTree = "<group>"; };
 		7BCA59AD240DB698002B2E56 /* testProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BCA59B0240DB698002B2E56 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				7BCA59B0240DB698002B2E56 /* main.swift */,
+				7B8B9B632410A5140012FEFB /* Bridges.swift */,
 			);
 			path = testProject;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B8B9B642410A5140012FEFB /* Bridges.swift in Sources */,
 				7BCA59B1240DB698002B2E56 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
