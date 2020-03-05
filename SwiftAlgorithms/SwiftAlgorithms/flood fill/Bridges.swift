@@ -15,13 +15,13 @@ struct bSquare {
 let bdx = [0, 0, 1, -1]
 let bdy = [1, -1, 0, 0]
 
- var island :[[Int]] = [[Int]]()
+var island :[[Int]] = [[Int]]()
 var islandMap = [[Int]]()
 
 func bridges(){
     let cr = Int(readLine()!)!
     islandMap = [[Int]]()
-     island = [[Int]](repeating: [Int](repeating: 0, count: cr), count: cr)
+    island = [[Int]](repeating: [Int](repeating: 0, count: cr), count: cr)
     var search:[[Int]]
     for _ in 0..<cr{
         let map = readLine()!.split(separator: " ").map{Int($0)!}
@@ -41,7 +41,7 @@ func bridges(){
     
     
     var goes = 0
-    var min = cr
+    var min = (cr*2)-3
     for iid in id..<0{
         search = island
         let bridgeq = bridgesQueue<bSquare>()
@@ -54,47 +54,39 @@ func bridges(){
             }
         }
         
-          while !bridgeq.isEmpty() {
-                let square = bridgeq.dequeue()!
-                let x = square.x
-                let y = square.y
-
-                for i in 0..<4 {
-                    let nx = x + bdx[i]
-                    let ny = y + bdy[i]
-                    // check the bounds
-                    if nx >= 0 && nx < cr && ny >= 0 && ny < cr {
-                        if search[nx][ny] == 0 {
-                          
-                            if search[x][y] > iid+goes-1{
-                                goes += 1
-                            }
-                            bridgeq.enqueue(item: bSquare(x: nx, y: ny))
-                             search[nx][ny] = goes
+        while !bridgeq.isEmpty() {
+            let square = bridgeq.dequeue()!
+            let x = square.x
+            let y = square.y
+            
+            for i in 0..<4 {
+                let nx = x + bdx[i]
+                let ny = y + bdy[i]
+                // check the bounds
+                if nx >= 0 && nx < cr && ny >= 0 && ny < cr {
+                    if search[nx][ny] == 0 {
+                        if search[x][y] > goes-1 || (goes == 0 && search[x][y]<0 ){
+                            goes += 1
                         }
-                        else if search[nx][ny] < 0 && search[nx][ny] != iid{
-                            if(goes < min){
-                                 min = goes-1
-                            }
+                        bridgeq.enqueue(item: bSquare(x: nx, y: ny))
+                        search[nx][ny] = goes
+                    }
+                    
+                    if search[nx][ny] < 0 && search[nx][ny] != iid{
+                        if(search[x][y]  < min){
+                            min = search[x][y]
                         }
                     }
                 }
             }
-        
-        for i in 0..<cr{
-          print(search[i])
         }
-        
-        for i in 0..<cr{
-          print(islandMap[i])
-        }
-        
-    
-        
+//        for i in 0..<cr{
+//            print(search[i])
+//        }
     }
-
-print(min)
-
+    
+    print(min)
+    
 }
 
 func bbfs(x: Int, y: Int, id: Int, n: Int) {
@@ -156,7 +148,7 @@ public final class bridgesQueue<E> : Sequence {
     public func peek() -> E? {
         // MARK: - TODO
         return first?.item
-//        return last?.item
+        //        return last?.item
     }
     
     /// Adds the item to this queue
@@ -173,7 +165,7 @@ public final class bridgesQueue<E> : Sequence {
             oldLast?.next = last
         }
         count += 1
-    
+        
     }
     
     /// Removes and returns the item on this queue that was least recently added.
