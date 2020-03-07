@@ -20,6 +20,7 @@
 		7B59758F24101D1D00949E55 /* courseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B59758E24101D1D00949E55 /* courseSchedule.swift */; };
 		7B59759124101D3B00949E55 /* courseScheduleII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B59759024101D3A00949E55 /* courseScheduleII.swift */; };
 		7B73916A2401E33500718C10 /* LCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7391692401E33500718C10 /* LCA.swift */; };
+		7B8D69462412F5D6002F744A /* gasStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D69452412F5D6002F744A /* gasStation.swift */; };
 		7BB3E1F424086E4D00824986 /* floodfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F324086E4D00824986 /* floodfill.swift */; };
 		7BB3E1F624088BBC00824986 /* sushiRestaurantReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F524088BBC00824986 /* sushiRestaurantReviews.swift */; };
 		7BB3E1F82408C30700824986 /* cyclicPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F72408C30700824986 /* cyclicPermutation.swift */; };
@@ -68,6 +69,7 @@
 		7B59758E24101D1D00949E55 /* courseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseSchedule.swift; sourceTree = "<group>"; };
 		7B59759024101D3A00949E55 /* courseScheduleII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseScheduleII.swift; sourceTree = "<group>"; };
 		7B7391692401E33500718C10 /* LCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCA.swift; sourceTree = "<group>"; };
+		7B8D69452412F5D6002F744A /* gasStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gasStation.swift; sourceTree = "<group>"; };
 		7BB3E1F324086E4D00824986 /* floodfill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floodfill.swift; sourceTree = "<group>"; };
 		7BB3E1F524088BBC00824986 /* sushiRestaurantReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushiRestaurantReviews.swift; sourceTree = "<group>"; };
 		7BB3E1F72408C30700824986 /* cyclicPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyclicPermutation.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 			children = (
 				7BE6365F2411AAE60009D3F2 /* twoCityScheduling.swift */,
 				7BE636612411AB7C0009D3F2 /* taskScheduler.swift */,
+				7B8D69452412F5D6002F744A /* gasStation.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				7B329ABC240589E200A618CE /* Stack.swift in Sources */,
 				7BB3E1FA2408CBD500824986 /* repeatingSequence.swift in Sources */,
 				7B329ABB240589E200A618CE /* Queue.swift in Sources */,
+				7B8D69462412F5D6002F744A /* gasStation.swift in Sources */,
 				7B59759124101D3B00949E55 /* courseScheduleII.swift in Sources */,
 				7B08A7B4240F06A700E1D1AD /* topologicalSort.swift in Sources */,
 				7BB3E1F624088BBC00824986 /* sushiRestaurantReviews.swift in Sources */,

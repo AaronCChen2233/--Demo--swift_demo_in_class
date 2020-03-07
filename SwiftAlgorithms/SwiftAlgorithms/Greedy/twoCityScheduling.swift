@@ -10,7 +10,7 @@ import Foundation
 
 func twoCitySchedCost(_ costs: [[Int]]) -> Int {
     var sum = 0
-    /**difference */
+    /**difference*/
     var d = [Int]()
     /**Add first costs first*/
     for c in costs{
