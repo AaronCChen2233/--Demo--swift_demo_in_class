@@ -12,7 +12,7 @@ func twoCitySchedCost(_ costs: [[Int]]) -> Int {
     var sum = 0
     /**difference*/
     var d = [Int]()
-    /**Add first costs first*/
+    /**Add cityA costs first*/
     for c in costs{
         d.append(c[0]-c[1])
         sum += c[0]
@@ -25,5 +25,3 @@ func twoCitySchedCost(_ costs: [[Int]]) -> Int {
     }
     return sum
 }
-
-

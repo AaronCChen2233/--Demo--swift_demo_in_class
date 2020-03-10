@@ -7,11 +7,15 @@
 //
 
 import Foundation
+minimumcostFlow()
 
+
+
+//partitionLabels("ababcbacadefegdehijhklij")
 //canCompleteCircuit([3,3,4], [3,4,4])
 //canCompleteCircuit([1,2,3,4,5], [3,4,5,1,2])
 //canCompleteCircuit([1,2,3,4,3,2,4,1,5,3,2,4], [1,1,1,3,2,4,3,6,7,4,3,1])
-canCompleteCircuit([3,1,1], [1,2,2])
+//canCompleteCircuit([3,1,1], [1,2,2])
 //bridges()®
 
 //print(twoCitySchedCost([[259,770],[448,54],[926,667],[184,139],[840,118],[577,469]]))
