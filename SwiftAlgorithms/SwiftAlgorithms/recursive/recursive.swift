@@ -48,7 +48,7 @@ func reverseLine(_ line:Int){
         if iline == -1 {iline = lines.count-1}
         
         print(lines[iline])
-        if line == 0 {return}
+        if line == 0 { return }
         reverseLine(iline - 1)
     }
 }

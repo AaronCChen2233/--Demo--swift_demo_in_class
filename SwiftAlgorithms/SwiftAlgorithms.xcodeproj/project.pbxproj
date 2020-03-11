@@ -32,6 +32,7 @@
 		7BC6F220241073A3003AE1D5 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6F21F241073A3003AE1D5 /* Bridges.swift */; };
 		7BCA59BA240DB9AC002B2E56 /* tomatoFarm .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCA59B9240DB9AC002B2E56 /* tomatoFarm .swift */; };
 		7BCA59BC240DBAC8002B2E56 /* sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCA59BB240DBAC8002B2E56 /* sushi.swift */; };
+		7BCBEA8B24182EA60078DB90 /* readTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCBEA8A24182EA60078DB90 /* readTestCase.swift */; };
 		7BD073F423F74E130051640D /* backtracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD073F323F74E130051640D /* backtracking.swift */; };
 		7BE40D6B23F3706100935C88 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6A23F3706100935C88 /* QuickSort.swift */; };
 		7BE40D6E23F3712500935C88 /* recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE40D6D23F3712500935C88 /* recursive.swift */; };
@@ -84,6 +85,7 @@
 		7BC6F21F241073A3003AE1D5 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		7BCA59B9240DB9AC002B2E56 /* tomatoFarm .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "tomatoFarm .swift"; sourceTree = "<group>"; };
 		7BCA59BB240DBAC8002B2E56 /* sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushi.swift; sourceTree = "<group>"; };
+		7BCBEA8A24182EA60078DB90 /* readTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readTestCase.swift; sourceTree = "<group>"; };
 		7BD073F323F74E130051640D /* backtracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backtracking.swift; sourceTree = "<group>"; };
 		7BE40D6A23F3706100935C88 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		7BE40D6D23F3712500935C88 /* recursive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recursive.swift; sourceTree = "<group>"; };
@@ -157,6 +159,14 @@
 			path = "flood fill";
 			sourceTree = "<group>";
 		};
+		7BCBEA8924182CBD0078DB90 /* TestCase */ = {
+			isa = PBXGroup;
+			children = (
+				7BCBEA8A24182EA60078DB90 /* readTestCase.swift */,
+			);
+			path = TestCase;
+			sourceTree = "<group>";
+		};
 		7BD073F223F74DA50051640D /* backtracking */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +204,7 @@
 		7BE6187B23F2200F0010DCF9 /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				7BCBEA8924182CBD0078DB90 /* TestCase */,
 				7BE6365E2411AAC00009D3F2 /* Greedy */,
 				7B08A7B2240F025300E1D1AD /* DAG */,
 				7BB3E1F224086E3B00824986 /* flood fill */,
@@ -320,6 +331,7 @@
 				7BD073F423F74E130051640D /* backtracking.swift in Sources */,
 				7BC6F220241073A3003AE1D5 /* Bridges.swift in Sources */,
 				7B329ABC240589E200A618CE /* Stack.swift in Sources */,
+				7BCBEA8B24182EA60078DB90 /* readTestCase.swift in Sources */,
 				7BB3E1FA2408CBD500824986 /* repeatingSequence.swift in Sources */,
 				7B329ABB240589E200A618CE /* Queue.swift in Sources */,
 				7B8D69462412F5D6002F744A /* gasStation.swift in Sources */,

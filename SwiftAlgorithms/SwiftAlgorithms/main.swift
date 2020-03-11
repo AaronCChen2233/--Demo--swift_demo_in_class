@@ -7,9 +7,10 @@
 //
 
 import Foundation
-minimumcostFlow()
 
 
+readTestCase(50)
+//minimumCostUseReadLine()
 
 //partitionLabels("ababcbacadefegdehijhklij")
 //canCompleteCircuit([3,3,4], [3,4,4])
