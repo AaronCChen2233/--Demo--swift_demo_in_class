@@ -88,6 +88,7 @@ public struct UF {
         while parent[i] != i {
             i = parent[i]
         }
+        parent[p] = i
         return i
     }
 }

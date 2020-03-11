@@ -38,13 +38,16 @@ func readTestCase(_ caseCount:Int)
         
         /**Read ansert*/
         let ansert = Int(outputContent!.split(separator: "\n")[0])!
-        
-        if ansert == minimumCostFlow(pipData: pipData, N: N, M: M, D: D){
+        let result = minimumCostFlow(pipData: pipData, N: N, M: M, D: D)
+        if ansert == result{
             print(i)
             print("Success")
         }else{
             print(i)
+            print(ansert)
+            print(result)
             print("Faild")
         }
     }
 }
+

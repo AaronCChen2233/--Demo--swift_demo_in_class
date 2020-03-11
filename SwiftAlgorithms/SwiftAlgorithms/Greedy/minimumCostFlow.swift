@@ -45,38 +45,55 @@ func minimumCostFlow(pipData:[Pip], N:Int,M:Int,D:Int)->Int{
     for i in 0..<N-1{
         let pip = pipData[i]
         /**Cost should max(0, C-D)*/
-        if pip.cost > D{
-            lessCostPip.append(Pip(from: pip.from, to: pip.to, cost: pip.cost-D,isNew: false))
-        }else{
-            lessCostPip.append(Pip(from: pip.from, to: pip.to, cost: 0,isNew: false))
-        }
+        //        if pip.cost > D{
+        //            lessCostPip.append(Pip(from: pip.from, to: pip.to, cost: pip.cost-D,isNew: false))
+        //        }else{
+        //            lessCostPip.append(Pip(from: pip.from, to: pip.to, cost: 0,isNew: false))
+        //        }
+        
+        lessCostPip.append(Pip(from: pip.from, to: pip.to, cost: pip.cost,isNew: false))
     }
     
     /**New Pip*/
     for i in N-1..<M{
         lessCostPip.append(pipData[i])
     }
-
+    
     var optimalPlan = [Pip]()
     var kuf = KUF(N)
     /**Sort*/
     lessCostPip.sort{$0.cost<$1.cost}
     /**To Minimum Spanning Tree*/
     
-    for p in lessCostPip{
+    //    for p in lessCostPip{
+    //        if kuf.union(p.from, p.to){
+    //            if p.isNew{
+    //                ansert[1] = ansert[1] + 1
+    //            }else{
+    ////                if p.cost > D && D != 0{
+    ////                    ansert[0] = ansert[0]+1
+    ////                }
+    //            }
+    //            optimalPlan.append(p)
+    //        }
+    //    }
+    
+    var i = 0
+    while kuf.count != 1 {
+        let p = lessCostPip[i]
         if kuf.union(p.from-1, p.to-1){
             if p.isNew{
-                ansert[2] = ansert[2] + 1
-            }else{
-                if p.cost > 0 && D != 0{
-                    ansert[0] = ansert[0]+1
-                }
+                ansert[1] = ansert[1] + 1
             }
             optimalPlan.append(p)
         }
+        i += 1
     }
-    ansert[1] = (N-1) - (optimalPlan.count - ansert[2])
-
+    
+    
+    /**deactivity*/
+    ansert[2] = (N-1) - (optimalPlan.count - ansert[2])
+    
     /**Because they can do those action in same day so return the max one*/
     return ansert.max()!
 }
