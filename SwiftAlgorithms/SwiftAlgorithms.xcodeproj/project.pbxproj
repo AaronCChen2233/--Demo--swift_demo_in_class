@@ -27,6 +27,9 @@
 		7BB3E1F624088BBC00824986 /* sushiRestaurantReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F524088BBC00824986 /* sushiRestaurantReviews.swift */; };
 		7BB3E1F82408C30700824986 /* cyclicPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F72408C30700824986 /* cyclicPermutation.swift */; };
 		7BB3E1FA2408CBD500824986 /* repeatingSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB3E1F92408CBD500824986 /* repeatingSequence.swift */; };
+		7BB638C4241A90DB00BCE47D /* networkDelayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB638C3241A90DB00BCE47D /* networkDelayTime.swift */; };
+		7BB638C6241A912E00BCE47D /* cheapestFlightsWithinKStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB638C5241A912E00BCE47D /* cheapestFlightsWithinKStops.swift */; };
+		7BB638C9241AD25D00BCE47D /* nonDecreasingDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB638C8241AD25D00BCE47D /* nonDecreasingDigits.swift */; };
 		7BB679EA2416EFEE006E7406 /* dijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB679E92416EFEE006E7406 /* dijkstraArray.swift */; };
 		7BBCBBF02406E4F400158158 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBCBBEF2406E4F400158158 /* UF.swift */; };
 		7BC6F220241073A3003AE1D5 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6F21F241073A3003AE1D5 /* Bridges.swift */; };
@@ -80,6 +83,9 @@
 		7BB3E1F524088BBC00824986 /* sushiRestaurantReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushiRestaurantReviews.swift; sourceTree = "<group>"; };
 		7BB3E1F72408C30700824986 /* cyclicPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cyclicPermutation.swift; sourceTree = "<group>"; };
 		7BB3E1F92408CBD500824986 /* repeatingSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repeatingSequence.swift; sourceTree = "<group>"; };
+		7BB638C3241A90DB00BCE47D /* networkDelayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkDelayTime.swift; sourceTree = "<group>"; };
+		7BB638C5241A912E00BCE47D /* cheapestFlightsWithinKStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheapestFlightsWithinKStops.swift; sourceTree = "<group>"; };
+		7BB638C8241AD25D00BCE47D /* nonDecreasingDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nonDecreasingDigits.swift; sourceTree = "<group>"; };
 		7BB679E92416EFEE006E7406 /* dijkstraArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dijkstraArray.swift; sourceTree = "<group>"; };
 		7BBCBBEF2406E4F400158158 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		7BC6F21F241073A3003AE1D5 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
@@ -159,6 +165,23 @@
 			path = "flood fill";
 			sourceTree = "<group>";
 		};
+		7BB638C2241A909F00BCE47D /* shortestPath */ = {
+			isa = PBXGroup;
+			children = (
+				7BB638C3241A90DB00BCE47D /* networkDelayTime.swift */,
+				7BB638C5241A912E00BCE47D /* cheapestFlightsWithinKStops.swift */,
+			);
+			path = shortestPath;
+			sourceTree = "<group>";
+		};
+		7BB638C7241AD22700BCE47D /* dynamicPrograming */ = {
+			isa = PBXGroup;
+			children = (
+				7BB638C8241AD25D00BCE47D /* nonDecreasingDigits.swift */,
+			);
+			path = dynamicPrograming;
+			sourceTree = "<group>";
+		};
 		7BCBEA8924182CBD0078DB90 /* TestCase */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +227,8 @@
 		7BE6187B23F2200F0010DCF9 /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				7BB638C7241AD22700BCE47D /* dynamicPrograming */,
+				7BB638C2241A909F00BCE47D /* shortestPath */,
 				7BCBEA8924182CBD0078DB90 /* TestCase */,
 				7BE6365E2411AAC00009D3F2 /* Greedy */,
 				7B08A7B2240F025300E1D1AD /* DAG */,
@@ -326,10 +351,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB638C9241AD25D00BCE47D /* nonDecreasingDigits.swift in Sources */,
 				7BE636622411AB7C0009D3F2 /* taskScheduler.swift in Sources */,
 				7BCA59BC240DBAC8002B2E56 /* sushi.swift in Sources */,
 				7BD073F423F74E130051640D /* backtracking.swift in Sources */,
 				7BC6F220241073A3003AE1D5 /* Bridges.swift in Sources */,
+				7BB638C6241A912E00BCE47D /* cheapestFlightsWithinKStops.swift in Sources */,
 				7B329ABC240589E200A618CE /* Stack.swift in Sources */,
 				7BCBEA8B24182EA60078DB90 /* readTestCase.swift in Sources */,
 				7BB3E1FA2408CBD500824986 /* repeatingSequence.swift in Sources */,
@@ -347,6 +374,7 @@
 				7B329AC82405ECB900A618CE /* connectedComponents.swift in Sources */,
 				7B329AC62405EC7D00A618CE /* Bipartite.swift in Sources */,
 				7B8C41E32414630B00EB00D3 /* partitionLabels.swift in Sources */,
+				7BB638C4241A90DB00BCE47D /* networkDelayTime.swift in Sources */,
 				7BE6187D23F2200F0010DCF9 /* main.swift in Sources */,
 				7BB679EA2416EFEE006E7406 /* dijkstraArray.swift in Sources */,
 				7BE40D7023F3763B00935C88 /* String+DPStringTool.swift in Sources */,
