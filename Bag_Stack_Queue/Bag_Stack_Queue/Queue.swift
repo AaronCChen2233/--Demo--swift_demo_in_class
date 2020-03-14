@@ -86,7 +86,7 @@ public final class Queue<E> : Sequence {
             current = current?.next
             return nextitem
         }
-        
+     
         public typealias Element = E
     }
     

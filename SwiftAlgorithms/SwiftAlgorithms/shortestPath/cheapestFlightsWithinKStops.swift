@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct cmap {
-    let cost:Int
-    let passed:Int
-}
+//struct cmap {
+//    let cost:Int
+//    let passed:Int
+//}
 
 func findCheapestPrice(_ n: Int, _ flights: [[Int]], _ src: Int, _ dst: Int, _ K: Int) -> Int {
     
@@ -23,7 +23,6 @@ func findCheapestPrice(_ n: Int, _ flights: [[Int]], _ src: Int, _ dst: Int, _ K
             way[f[0]] = f[2]
         }
     }
-    print(way)
     
     for _ in 0..<K {
         for f in flights{
@@ -31,7 +30,6 @@ func findCheapestPrice(_ n: Int, _ flights: [[Int]], _ src: Int, _ dst: Int, _ K
                 way[f[0]] = way[f[1]] + f[2]
             }
         }
-        print(way)
     }
     
     if way[src] == Int.max{

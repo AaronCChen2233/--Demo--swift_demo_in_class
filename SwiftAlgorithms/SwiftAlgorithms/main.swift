@@ -7,9 +7,21 @@
 //
 
 import Foundation
+
+for i in 0...10{
+   print(twoTiles2(i))
+}
+
+
+//oneTwoThree()
+//test()
+//climbStairs(9)
+//pokemon()
+//sumOfSquareNumbers2(5)
+
 //networkDelayTime([[2,1,1],[2,3,1],[3,4,1]], 4, 2)
 //findCheapestPrice(3, [[0,1,100],[1,2,100],[0,2,500]],0,2,1)
-findCheapestPrice(5, [[4,1,1],[1,2,3],[0,3,2],[0,4,10],[3,1,1],[1,4,3]], 2, 1, 1)
+//findCheapestPrice(5, [[4,1,1],[1,2,3],[0,3,2],[0,4,10],[3,1,1],[1,4,3]], 2, 1, 1)
 //findCheapestPrice(3, [[0,1,2],[1,2,1],[2,0,10]], 1, 2, 1)
 //findCheapestPrice(5,[[1,2,10],[2,0,7],[1,3,8],[4,0,10],[3,4,2],[4,2,10],[0,3,3],[3,1,6],[2,4,5]], 0, 4, 1)
 //findCheapestPrice(5,[[4,1,1],[1,2,3],[0,3,2],[0,4,10],[3,1,1],[1,4,3]],2,1,1)
