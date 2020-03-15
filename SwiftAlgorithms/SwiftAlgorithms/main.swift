@@ -8,9 +8,12 @@
 
 import Foundation
 
-for i in 0...10{
-   print(twoTiles2(i))
-}
+//testL()
+judgeSquareSum(1)
+
+//for i in 0...10{
+//   print(twoTiles2(i))
+//}
 
 
 //oneTwoThree()

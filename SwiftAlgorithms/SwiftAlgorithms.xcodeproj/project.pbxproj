@@ -11,6 +11,8 @@
 		7B0BCBF523F4A4EB00B3F5D4 /* evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */; };
 		7B1CFCAD23FDE4470013762B /* treeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1CFCAC23FDE4470013762B /* treeOrder.swift */; };
 		7B26EBB4241D49C400D8EC00 /* oneTwoThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26EBB3241D49C400D8EC00 /* oneTwoThree.swift */; };
+		7B26EBB6241D8D0D00D8EC00 /* prettyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26EBB5241D8D0D00D8EC00 /* prettyNumber.swift */; };
+		7B26EBB8241DBDB000D8EC00 /* longestIncreasingSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26EBB7241DBDB000D8EC00 /* longestIncreasingSubsequence.swift */; };
 		7B329ABB240589E200A618CE /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B329AB8240589E200A618CE /* Queue.swift */; };
 		7B329ABC240589E200A618CE /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B329AB9240589E200A618CE /* Stack.swift */; };
 		7B329ABD240589E200A618CE /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B329ABA240589E200A618CE /* Bag.swift */; };
@@ -74,6 +76,8 @@
 		7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evaluate.swift; sourceTree = "<group>"; };
 		7B1CFCAC23FDE4470013762B /* treeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treeOrder.swift; sourceTree = "<group>"; };
 		7B26EBB3241D49C400D8EC00 /* oneTwoThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneTwoThree.swift; sourceTree = "<group>"; };
+		7B26EBB5241D8D0D00D8EC00 /* prettyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prettyNumber.swift; sourceTree = "<group>"; };
+		7B26EBB7241DBDB000D8EC00 /* longestIncreasingSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longestIncreasingSubsequence.swift; sourceTree = "<group>"; };
 		7B329AB8240589E200A618CE /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = ../../../Bag_Stack_Queue/Bag_Stack_Queue/Queue.swift; sourceTree = "<group>"; };
 		7B329AB9240589E200A618CE /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = ../../../Bag_Stack_Queue/Bag_Stack_Queue/Stack.swift; sourceTree = "<group>"; };
 		7B329ABA240589E200A618CE /* Bag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = ../../../Bag_Stack_Queue/Bag_Stack_Queue/Bag.swift; sourceTree = "<group>"; };
@@ -202,6 +206,8 @@
 				7B4E1D58241C53950023A1DF /* 2NTiles.swift */,
 				7B4E1D5A241C543F0023A1DF /* 2NTiles2.swift */,
 				7B26EBB3241D49C400D8EC00 /* oneTwoThree.swift */,
+				7B26EBB5241D8D0D00D8EC00 /* prettyNumber.swift */,
+				7B26EBB7241DBDB000D8EC00 /* longestIncreasingSubsequence.swift */,
 			);
 			path = dynamicPrograming;
 			sourceTree = "<group>";
@@ -382,6 +388,7 @@
 				7BD073F423F74E130051640D /* backtracking.swift in Sources */,
 				7B4E1D53241C3A410023A1DF /* pokemon.swift in Sources */,
 				7BC6F220241073A3003AE1D5 /* Bridges.swift in Sources */,
+				7B26EBB8241DBDB000D8EC00 /* longestIncreasingSubsequence.swift in Sources */,
 				7B4E1D4F241C270A0023A1DF /* sumOfSquareNumbers.swift in Sources */,
 				7BB638C6241A912E00BCE47D /* cheapestFlightsWithinKStops.swift in Sources */,
 				7B329ABC240589E200A618CE /* Stack.swift in Sources */,
@@ -408,6 +415,7 @@
 				7BB638C4241A90DB00BCE47D /* networkDelayTime.swift in Sources */,
 				7BE6187D23F2200F0010DCF9 /* main.swift in Sources */,
 				7BB679EA2416EFEE006E7406 /* dijkstraArray.swift in Sources */,
+				7B26EBB6241D8D0D00D8EC00 /* prettyNumber.swift in Sources */,
 				7B4E1D51241C27850023A1DF /* sumOfSquareNumbers2.swift in Sources */,
 				7BE40D7023F3763B00935C88 /* String+DPStringTool.swift in Sources */,
 				7B329AC42405EC2200A618CE /* DFS.swift in Sources */,
