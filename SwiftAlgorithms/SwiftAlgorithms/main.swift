@@ -7,9 +7,11 @@
 //
 
 import Foundation
-
+pokemon()
+//trysumOfS()
+//judgeSquareSum(2624)
 //testL()
-judgeSquareSum(1)
+//judgeSquareSum(1000)
 
 //for i in 0...10{
 //   print(twoTiles2(i))

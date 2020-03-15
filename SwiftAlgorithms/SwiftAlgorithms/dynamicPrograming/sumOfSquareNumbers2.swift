@@ -9,43 +9,46 @@
 import Foundation
 
 func sumOfSquareNumbers2(_ n:Int){
-    let nr = Int(Double(n).squareRoot())
-    var i = nr
-    var count = 1
-    var left = (n - (nr*nr))
-    var counts = [Int]()
+    let rn = Int(Double(n).squareRoot())
+    var j = rn
+    var left = n
+    var a = [Int]()
+    var c = 0
     
-    for j in 0..<nr{
-        left = (n - (j*j))
-        count = 1
-        
-        i = j+i
-        while left != 0{
-            count += 1
-            left -= i*i
+    for i in 1...rn{
+        while true{
+            left -= j*j
+            c += 1
+            if left == 0{
+                a.append(c)
+                j = rn - i
+                c = 0
+                left = n
+                break
+            }
+            
+            if left > 0{
+                j =  Int(Double(left).squareRoot())
+            }
             
             if left < 0{
-                left += i*i
-                i -= 1
-                count -= 1
+                j = rn - i
+                c = 0
+                left = n
+                break
             }
         }
-        counts.append(count)
     }
-
-    print(n)
-    print(counts.min()!)
-    print()
+    
+    print(a.min()!)
+    
 }
 
 func trysumOfS(){
-//    for i in 1...20{
-//        sumOfSquareNumbers2(7)
-//     sumOfSquareNumbers2(2624)
-//    sumOfSquareNumbers2(18)
-//    }
-//
-    for i in 1...2625{
-        sumOfSquareNumbers2(i)
-    }
+    
+    sumOfSquareNumbers2(2624)
+//        for i in 1...2625{
+//            sumOfSquareNumbers2(i)
+//        }
 }
+
