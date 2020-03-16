@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B08A7B4240F06A700E1D1AD /* topologicalSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08A7B3240F06A700E1D1AD /* topologicalSort.swift */; };
 		7B0BCBF523F4A4EB00B3F5D4 /* evaluate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */; };
+		7B19DBEE241EE34900117225 /* decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DBED241EE34900117225 /* decoding.swift */; };
 		7B1CFCAD23FDE4470013762B /* treeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1CFCAC23FDE4470013762B /* treeOrder.swift */; };
 		7B26EBB4241D49C400D8EC00 /* oneTwoThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26EBB3241D49C400D8EC00 /* oneTwoThree.swift */; };
 		7B26EBB6241D8D0D00D8EC00 /* prettyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26EBB5241D8D0D00D8EC00 /* prettyNumber.swift */; };
@@ -41,6 +42,7 @@
 		7BB638C6241A912E00BCE47D /* cheapestFlightsWithinKStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB638C5241A912E00BCE47D /* cheapestFlightsWithinKStops.swift */; };
 		7BB638C9241AD25D00BCE47D /* nonDecreasingDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB638C8241AD25D00BCE47D /* nonDecreasingDigits.swift */; };
 		7BB679EA2416EFEE006E7406 /* dijkstraArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB679E92416EFEE006E7406 /* dijkstraArray.swift */; };
+		7BBB28A5242039A9000037BE /* maximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB28A4242039A9000037BE /* maximumSubarray.swift */; };
 		7BBCBBF02406E4F400158158 /* UF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBCBBEF2406E4F400158158 /* UF.swift */; };
 		7BC6F220241073A3003AE1D5 /* Bridges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6F21F241073A3003AE1D5 /* Bridges.swift */; };
 		7BCA59BA240DB9AC002B2E56 /* tomatoFarm .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCA59B9240DB9AC002B2E56 /* tomatoFarm .swift */; };
@@ -74,6 +76,7 @@
 /* Begin PBXFileReference section */
 		7B08A7B3240F06A700E1D1AD /* topologicalSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topologicalSort.swift; sourceTree = "<group>"; };
 		7B0BCBF423F4A4EB00B3F5D4 /* evaluate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evaluate.swift; sourceTree = "<group>"; };
+		7B19DBED241EE34900117225 /* decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = decoding.swift; sourceTree = "<group>"; };
 		7B1CFCAC23FDE4470013762B /* treeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treeOrder.swift; sourceTree = "<group>"; };
 		7B26EBB3241D49C400D8EC00 /* oneTwoThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneTwoThree.swift; sourceTree = "<group>"; };
 		7B26EBB5241D8D0D00D8EC00 /* prettyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prettyNumber.swift; sourceTree = "<group>"; };
@@ -107,6 +110,7 @@
 		7BB638C5241A912E00BCE47D /* cheapestFlightsWithinKStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cheapestFlightsWithinKStops.swift; sourceTree = "<group>"; };
 		7BB638C8241AD25D00BCE47D /* nonDecreasingDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nonDecreasingDigits.swift; sourceTree = "<group>"; };
 		7BB679E92416EFEE006E7406 /* dijkstraArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dijkstraArray.swift; sourceTree = "<group>"; };
+		7BBB28A4242039A9000037BE /* maximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maximumSubarray.swift; sourceTree = "<group>"; };
 		7BBCBBEF2406E4F400158158 /* UF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UF.swift; sourceTree = "<group>"; };
 		7BC6F21F241073A3003AE1D5 /* Bridges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridges.swift; sourceTree = "<group>"; };
 		7BCA59B9240DB9AC002B2E56 /* tomatoFarm .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "tomatoFarm .swift"; sourceTree = "<group>"; };
@@ -208,6 +212,8 @@
 				7B26EBB3241D49C400D8EC00 /* oneTwoThree.swift */,
 				7B26EBB5241D8D0D00D8EC00 /* prettyNumber.swift */,
 				7B26EBB7241DBDB000D8EC00 /* longestIncreasingSubsequence.swift */,
+				7B19DBED241EE34900117225 /* decoding.swift */,
+				7BBB28A4242039A9000037BE /* maximumSubarray.swift */,
 			);
 			path = dynamicPrograming;
 			sourceTree = "<group>";
@@ -408,6 +414,7 @@
 				7B73916A2401E33500718C10 /* LCA.swift in Sources */,
 				7B4E1D55241C44DC0023A1DF /* makeOne.swift in Sources */,
 				7BE40D6E23F3712500935C88 /* recursive.swift in Sources */,
+				7B19DBEE241EE34900117225 /* decoding.swift in Sources */,
 				7BCA59BA240DB9AC002B2E56 /* tomatoFarm .swift in Sources */,
 				7B329AC82405ECB900A618CE /* connectedComponents.swift in Sources */,
 				7B329AC62405EC7D00A618CE /* Bipartite.swift in Sources */,
@@ -415,6 +422,7 @@
 				7BB638C4241A90DB00BCE47D /* networkDelayTime.swift in Sources */,
 				7BE6187D23F2200F0010DCF9 /* main.swift in Sources */,
 				7BB679EA2416EFEE006E7406 /* dijkstraArray.swift in Sources */,
+				7BBB28A5242039A9000037BE /* maximumSubarray.swift in Sources */,
 				7B26EBB6241D8D0D00D8EC00 /* prettyNumber.swift in Sources */,
 				7B4E1D51241C27850023A1DF /* sumOfSquareNumbers2.swift in Sources */,
 				7BE40D7023F3763B00935C88 /* String+DPStringTool.swift in Sources */,

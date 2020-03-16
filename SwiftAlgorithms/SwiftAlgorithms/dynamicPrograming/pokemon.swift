@@ -25,6 +25,7 @@ func pokemon(){
                 total[r][c] = total[r-1][c]+map[r][c]
             }
             
+            /**keep bigger one*/
             if(c-1>=0){
                 if total[r][c] < total[r][c-1]+map[r][c]{
                     total[r][c] = total[r][c-1]+map[r][c]

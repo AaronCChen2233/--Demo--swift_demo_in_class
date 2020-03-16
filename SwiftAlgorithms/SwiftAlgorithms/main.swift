@@ -7,7 +7,12 @@
 //
 
 import Foundation
-pokemon()
+
+//print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+
+
+print(numDecodings("1010"))
+//pokemon()
 //trysumOfS()
 //judgeSquareSum(2624)
 //testL()
